@@ -47,7 +47,7 @@ A multi-class classification problem focused on predicting the correct product c
 - Probabilistic prediction for submission
 
 - Results:
-- Validation Log Loss: `0.4747` *(replace with your actual output if different)*
+- Validation Log Loss: `0.4747` 
 
 ## Getting Started
 
