@@ -32,13 +32,14 @@ A classification model that predicts passenger survival on the Spaceship Titanic
   False class: 0.83/0.82
   True class: 0.82/0.83
 
-  ### 🛒 3. Otto Group Product Classification (Multi-class Classification)
+ ### 3. Otto Group Product Classification (Multi-class Classification)
 **File:** `stratk-fold-otto-classification.ipynb`  
 **Competition:** [Otto Group Product Classification Challenge](https://www.kaggle.com/c/otto-group-product-classification-challenge)
 
 A multi-class classification problem focused on predicting the correct product category.
 
 #### 🛠 Techniques Used:
+
 -XGBoost Classifier as the model
 -Stratified K-Fold Cross-Validation to ensure balanced class splits
 -Label Encoding for target classes
