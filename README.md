@@ -33,21 +33,21 @@ A classification model that predicts passenger survival on the Spaceship Titanic
   True class: 0.82/0.83
 
   ### 🛒 3. Otto Group Product Classification (Multi-class Classification)
-**File:** `otto-classification.ipynb`  
+**File:** `stratk-fold-otto-classification.ipynb`  
 **Competition:** [Otto Group Product Classification Challenge](https://www.kaggle.com/c/otto-group-product-classification-challenge)
 
 A multi-class classification problem focused on predicting the correct product category.
 
 #### 🛠 Techniques Used:
-- Feature scaling with `StandardScaler`
-- Label encoding the target variable
-- Model training with `XGBoostClassifier`
-- Stratified split for validation
-- Log-loss based evaluation
-- Probabilistic prediction for submission
+-XGBoost Classifier as the model
+-Stratified K-Fold Cross-Validation to ensure balanced class splits
+-Label Encoding for target classes
+-Standard Scaler for feature normalization
+-Log Loss as the evaluation metric
+
 
 - Results:
-- Validation Log Loss: `0.4747` 
+- OOF Log Loss: `0.4676` 
 
 ## Getting Started
 
